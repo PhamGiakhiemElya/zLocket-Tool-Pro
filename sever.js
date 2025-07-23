@@ -191,10 +191,6 @@
   }
   cleanExpiredKeys();
 
+  // Chỉ khai báo PORT một lần
   const PORT = process.env.PORT || 10000;
   app.listen(PORT, () => console.log(`Server chạy trên cổng ${PORT}`));
-  
-
-const PORT = process.env.PORT || 10000;
-app.listen(PORT, () => console.log(`Server chạy trên cổng ${PORT}`));
-
