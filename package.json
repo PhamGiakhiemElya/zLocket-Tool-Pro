@@ -1,13 +1,13 @@
-   {
-     "name": "tiktok-buff",
-     "version": "1.0.0",
-     "main": "sever.js",
-     "scripts": {
-       "start": "node sever.js"
-     },
-     "dependencies": {
-       "express": "^4.18.2",
-       "axios": "^1.7.2",
-       "pg": "^8.11.3"
-     }
-   }
+{
+  "name": "buff-view-spam-sms",
+  "version": "1.0.0",
+  "main": "sever.js",
+  "scripts": {
+    "start": "node sever.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.7.2",
+    "pg": "^8.11.3"
+  }
+}
