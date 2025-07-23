@@ -1,0 +1,16 @@
+     services:
+       - type: web
+         name: tiktok-buff
+         env: node
+         region: us-east
+         plan: free
+         branch: main
+         buildCommand: npm install && pip install -r requirements.txt
+         startCommand: node server.js
+         envVars:
+           - key: NODE_ENV
+             value: production
+           - key: TELEGRAM_BOT_TOKEN
+             value: 7632283705:AAH4b_yX6xgK1SZX6uXo7yXDZDEh1VGSRJ0
+           - key: TELEGRAM_CHAT_ID
+             value: -4664606881
